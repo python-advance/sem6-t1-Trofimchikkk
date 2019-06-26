@@ -48,12 +48,18 @@ split([sep[, n]]) - Возвращает список подстрок, полу
 
 Также применение методов split() и join() для разбиения строки в список (по разделителям) и обратное объединение списка строк в строку:
 
->>> s = "This is an example."
->>> lst = s.split(" ")
->>> print lst
+> s = "This is an example."
+
+> lst = s.split(" ")
+
+> print lst
+
 ['This', 'is', 'an', 'example.']
->>> s2 = "\n".join(lst)
->>> print s2
+
+> s2 = "\n".join(lst)
+
+> print s2
+
 This
 is
 an
