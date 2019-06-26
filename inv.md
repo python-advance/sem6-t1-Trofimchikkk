@@ -32,11 +32,11 @@ split([sep[, n]]) - Возвращает список подстрок, полу
 
 
 
-s = "mary had a little lamb"
-L = string.split(s)
-L
+>s = "mary had a little lamb"
+>L = string.split(s)
+>L
 ['mary', 'had', 'a', 'little', 'lamb']
-string.join(L, "-")
+>string.join(L, "-")
 'mary-had-a-little-lamb'
 
 
